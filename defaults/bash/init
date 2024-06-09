@@ -1,4 +1,4 @@
-eval "$(rbenv init - bash)"
-eval "$(nodenv init -)"
+source "$HOME/.asdf/asdf.sh"
+source "$HOME/.asdf/completions/asdf.bash"
 eval "$(zoxide init bash)"
 source /usr/share/doc/fzf/examples/key-bindings.bash
